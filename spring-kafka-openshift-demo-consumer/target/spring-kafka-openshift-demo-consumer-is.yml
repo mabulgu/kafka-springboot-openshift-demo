@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: image.openshift.io/v1
+  kind: ImageStream
+  metadata:
+    name: spring-kafka-openshift-demo-consumer
+  spec:
+    tags:
+    - from:
+        kind: ImageStreamImage
+        name: spring-kafka-openshift-demo-consumer@sha256:4e681473c09a17f85863d12b8c0f5d4dda0fe0a4c274d2566548d84dce68c1ef
+        namespace: kafka-demo
+      name: latest
