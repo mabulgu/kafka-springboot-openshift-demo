@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-kafka-openshift-demo-consumer/target/maven-archiver/maven-archiver.iml" filepath="$PROJECT_DIR$/spring-kafka-openshift-demo-consumer/target/maven-archiver/maven-archiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-kafka-openshift-demo-consumer/spring-kafka-openshift-demo-consumer.iml" filepath="$PROJECT_DIR$/spring-kafka-openshift-demo-consumer/spring-kafka-openshift-demo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-kafka-openshift-demo-producer/spring-kafka-openshift-demo-producer.iml" filepath="$PROJECT_DIR$/spring-kafka-openshift-demo-producer/spring-kafka-openshift-demo-producer.iml" />
+    </modules>
+  </component>
+</project>
